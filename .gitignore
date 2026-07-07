@@ -2,3 +2,14 @@
 .Rhistory
 .RData
 .Ruserdata
+predictors/baseline_bioclims.tif
+predictors/elevation.tif
+predictors/nitrogen.tif
+predictors/oahu.bil
+predictors/oahu.blw
+predictors/oahu.hdr
+predictors/oahu.stx
+predictors/README.oahu
+predictors/ruggedness.tif
+predictors/sand.tif
+predictors/soc.tif
