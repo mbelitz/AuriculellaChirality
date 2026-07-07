@@ -22,7 +22,7 @@ tempRainElev <- c(bio1,bio12,elev) %>%
 
 ## richness per grid cell 
 # add richness to model # 
-rm_files <- list.files(path = "output_polygons/", pattern = "*.shp", full.names = T)
+rm_files <- list.files(path = "sdmOutput_polygons/", pattern = "*.shp", full.names = T)
 rasterize_toCSV <- function(fz){
     temp_vec <-  vect(fz) %>% 
         project(tempRainElev)
@@ -54,7 +54,7 @@ preds <- preds_df %>%
     rast()
 
 #read in chiral data
-cd <- read.csv("data/Chirality_data-for-mapping-fromChandra.csv")
+cd <- read.csv("data/Better_Chirality_data-for-mapping_badpoints_removed.csv")
 head(cd)
 sort(unique(cd$correctedspeciesname))
 
@@ -93,7 +93,7 @@ eBird <- terra::extract(bird_rich, mdf2, touches = TRUE)
 mdf <- mdf %>% 
     mutate(birdRichness = eBird$richness)
 
-# okay i think it is fine to replace NAs with 1s
+# okay i think it is fine to replace NAs with 1s, because a snail must have been collected at that location
 mdf <- mdf %>% 
     mutate(snailRichness = if_else(
         is.na(snailRichness), true = 1, false = snailRichness
@@ -186,5 +186,4 @@ mdf_scaled <- filter(mdf_scaled, correctedspeciesname != "Auriculella armata")
 #Remove crassula observations
 mdf_scaled <- filter(mdf_scaled, correctedspeciesname != "Auriculella crassula")
 
-write.csv(mdf_scaled, file = "data/mdf_scaled_March2026Update.csv")
-
+write.csv(mdf_scaled, file = "data/mdf_scaled_July2026Update.csv")
