@@ -1,0 +1,9 @@
+Model,Term,Term_label,Estimate,Est.Error,Lower,Upper,Significant
+Step 2 phylogenetic (snail richness),Intercept,Intercept,-0.062835855128,0.5990756339015622,-1.2373357499999997,1.1613137500000001,FALSE
+Step 2 phylogenetic (snail richness),bio12_sc,Annual precipitation,0.3754490195425,0.13143321734663568,0.122329825,0.6276811000000001,TRUE
+Step 2 phylogenetic (snail richness),elev_sc,Elevation,-0.111817040916375,0.06617274450787382,-0.23501305,0.018738392500000006,FALSE
+Step 2 phylogenetic (snail richness),snailRichness_sc,Snail richness,-0.2582996371205,0.1057724186580644,-0.471858875,-0.05377223499999995,TRUE
+Step 2 phylogenetic (snail richness),birdRichness_sc,Bird richness,-0.021293342238215,0.06587601589603924,-0.15521607499999998,0.10444925,FALSE
+Step 2 phylogenetic (snail richness),shellDim_sc,Shell size,0.98287672816225,0.5133555387803066,-0.016261419999999204,1.9848127500000001,FALSE
+Step 2 phylogenetic (snail richness),relativeMass_sc,Relative mass,0.82016504926475,0.6413716715389511,-0.4596021249999998,2.0634502500000003,FALSE
+Step 2 phylogenetic (snail richness),relativeRatio_sc,relativeRatio_sc,0.98472180316975,0.7365842103193151,-0.4933943249999998,2.3554885,FALSE

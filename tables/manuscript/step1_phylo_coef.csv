@@ -1,0 +1,10 @@
+Model,Term,Term_label,Estimate,Est.Error,Lower,Upper,Significant
+Step 1 phylogenetic (snail richness),Intercept,Intercept,3.1251792095,0.6243422825024797,1.9312770000000004,4.405987499999999,TRUE
+Step 1 phylogenetic (snail richness),bio12_sc,Annual precipitation,0.74362750675,0.14883279731192778,0.4603006500000001,1.0428965000000001,TRUE
+Step 1 phylogenetic (snail richness),elev_sc,Elevation,0.6151385435,0.10509065190120558,0.4174173250000001,0.8247332000000002,TRUE
+Step 1 phylogenetic (snail richness),snailRichness_sc,Snail richness,-1.36943417125,0.1375338734077302,-1.6457505,-1.1086975,TRUE
+Step 1 phylogenetic (snail richness),birdRichness_sc,Bird richness,-0.15345152340335,0.09460786485795342,-0.34713665,0.028795057500000006,FALSE
+Step 1 phylogenetic (snail richness),shellDim_sc,Shell size,-1.541652733625,0.37144316429586655,-2.2634762499999996,-0.7840543499999998,TRUE
+Step 1 phylogenetic (snail richness),relativeMass_sc,Relative mass,-1.3517980864095,0.4678783880383221,-2.33736625,-0.4588920249999999,TRUE
+Step 1 phylogenetic (snail richness),relativeRatio_sc,relativeRatio_sc,0.73233573909175,0.5350452782015203,-0.3353205499999995,1.774683,FALSE
+Step 1 phylogenetic (snail richness),n_sc,Collection sample size,-0.76284153750000006,0.09560594222708846,-0.9533001249999999,-0.5810519749999999,TRUE

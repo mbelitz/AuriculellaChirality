@@ -1,0 +1,10 @@
+Model,Term,Term_label,Estimate,Est.Error,Lower,Upper,Significant
+Step 1 (snail richness),Intercept,Intercept,2.76407125575,0.6065019672817281,1.6251407500000001,4.00431875,TRUE
+Step 1 (snail richness),bio12_sc,Annual precipitation,0.7312350525,0.1490128770303475,0.44622977500000005,1.031697,TRUE
+Step 1 (snail richness),elev_sc,Elevation,0.628622953,0.107159743278503,0.42598052500000005,0.83811305,TRUE
+Step 1 (snail richness),snailRichness_sc,Snail richness,-1.37259136875,0.1361897351655564,-1.6396935,-1.11508875,TRUE
+Step 1 (snail richness),birdRichness_sc,Bird richness,-0.15234136027675,0.09444514391778107,-0.346960825,0.02642667500000002,FALSE
+Step 1 (snail richness),shellDim_sc,Shell size,-1.09341809211375,0.461487978238275,-1.9685725,-0.15059879999999995,TRUE
+Step 1 (snail richness),relativeMass_sc,Relative mass,-1.2364858348975,0.48878473794987787,-2.21580525,-0.2797336749999994,TRUE
+Step 1 (snail richness),relativeRatio_sc,relativeRatio_sc,0.78811648941085,0.5495234257490846,-0.3096918499999995,1.8358735000000004,FALSE
+Step 1 (snail richness),n_sc,Collection sample size,-0.75843116425,0.0936948852746719,-0.9474177,-0.5870384249999999,TRUE
